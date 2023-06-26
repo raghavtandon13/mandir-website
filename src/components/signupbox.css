@@ -1,0 +1,62 @@
+.signup-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  background-image: url("https://images.unsplash.com/photo-1686019539035-d034ab44a075?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80");
+  background-color: palevioletred;
+  background-blend-mode: darken;
+}
+.signup-box {
+  /* border: 5px solid black; */
+  padding: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(0, 0, 0, 0.811);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-heading h1 {
+  font-size: 40px;
+  line-height: 0.8;
+}
+.signup-input {
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  padding-top: 0%;
+  align-items: center;
+}
+.signup-input input {
+  width: 280px;
+  padding: 5%;
+  font-size: large;
+  margin-top: 8%;
+  border: none;
+  border-radius: 2px;
+  font-family: "Playfair Display", serif;
+}
+.signup-button button {
+  font-family: "Oswald", sans-serif;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.signup-button p {
+  color: white;
+  text-decoration-line: underline;
+}
+@media (max-width: 768px) {
+  .signup-box {
+    padding: 6%;
+  }
+  .signup-page {
+    background-position: right;
+  }
+}

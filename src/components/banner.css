@@ -1,0 +1,42 @@
+.first-banner {
+  background-image: url(https://images.unsplash.com/photo-1614836577922-dcada134ab17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-color: palevioletred;
+  background-blend-mode: multiply;
+  height: 100%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.heading {
+  font-size: 85px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Playfair Display", serif;
+}
+.heading-desc {
+  font-family: "Playfair Display", serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 25px;
+}
+.first-banner button {
+  margin: 2%;
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  padding: 8px 16px;
+  background-color: #4caf50;
+}
+@media (max-width: 768px) {
+  .first-banner {
+    background-size: cover;
+    height: 67vh;
+    padding-top: 30%;
+    background-position-x: -156px;
+  }
+  .heading{
+    font-size: 30px;
+    margin-top: -25px;
+  }
+  .heading-desc{
+    font-size: 12px;
+  }
+}

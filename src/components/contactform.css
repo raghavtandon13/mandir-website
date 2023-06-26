@@ -1,0 +1,96 @@
+.contact-div {
+  display: flex;
+  flex-direction: row;
+}
+.contact-heading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 40px;
+  align-items: center;
+}
+.contact-heading h1 {
+  font-size: 40px;
+}
+.contact-heading p {
+  font-family: "Playfair Display";
+  font-size: large;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.contact-form {
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.input-small input {
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  border: none;
+}
+.input-large input {
+  width: 88%;
+  padding: 2%;
+  margin-top: 1%;
+  padding-bottom: 20%;
+  border: none;
+}
+.contact-form form button {
+  font-family: "Oswald", sans-serif;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  right: 95px;
+  margin-top: 1%;
+  position: absolute;
+}
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .contact-div {
+    flex-direction: column;
+  }
+  .contact-heading{
+    padding: 0px;
+  }
+  .contact-heading h1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .contact-heading p {
+    font-size: small;
+  }
+  .contact-form {
+    padding: 30px;
+  }
+  .input-small input {
+    width: 88%;
+    margin: 1%;
+  }
+  .contact-form form button {
+    position: unset;
+    padding: 3px 16px;
+    margin-top: 2%;
+  }
+}

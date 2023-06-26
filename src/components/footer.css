@@ -1,0 +1,23 @@
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.footer-left {
+  flex: 1;
+}
+.footer-right {
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-left h1 {
+  font-size: 30px;
+}
+.social-links svg {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
