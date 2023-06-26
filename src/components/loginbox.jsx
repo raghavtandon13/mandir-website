@@ -11,13 +11,20 @@ function LoginBox() {
         </div>
         <div className="login-input">
           <input type="email" name="email" id="email" placeholder="E-mail" />
-          <input type="password" name="password" id="password" placeholder="Password"/>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
         </div>
         <div className="login-button">
+          <Link to={"/profile"}>
             <button>Submit</button>
-            <Link to={"/signup"}>
+          </Link>
+          <Link to={"/signup"}>
             <p>Create new accout</p>
-            </Link>
+          </Link>
         </div>
       </div>
     </div>

@@ -7,6 +7,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-left">
         <h1>Jhandewalan Mandir</h1>
+        {/* <h1>© Copyright 2023 Jhandewala Mandir. All Rights Reserved.</h1> */}
       </div>
       <div className="footer-right">
         <div className="social-links">
