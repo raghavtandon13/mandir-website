@@ -27,7 +27,7 @@ function Services() {
           <button>More Info</button>
         </div>
         <div className="service-box">
-          <img src={url2}/>
+          <img src={url2} />
           <h1>Traditional Wedding Services</h1>
           <p>
             Our temple offers various community outreach programs to educate and

@@ -2,9 +2,9 @@ import React from "react";
 import "./location.css";
 
 function Location() {
-  function openMap () {
+  function openMap() {
     window.location.href = "https://goo.gl/maps/fZXmNWDNGVykBNh77";
-  };
+  }
   return (
     <div className="map-background">
       <div onClick={openMap} className="location">

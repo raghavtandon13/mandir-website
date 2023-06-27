@@ -9,7 +9,7 @@ import Location from "../components/location";
 function Home() {
   return (
     <>
-      <Navbar buttonLink="/login" buttonLabel="Login"/>
+      <Navbar buttonLink="/login" buttonLabel="Login" />
       <Banner />
       <Services />
       <Video />
