@@ -3,17 +3,14 @@ import "./banner.css";
 
 function Banner() {
   const handleClick = () => {
-    var scrollButton = document.getElementById("scrollButton");
-    var targetElement = document.getElementById("targetElement");
-
-    scrollButton.addEventListener("click", function () {
+    {
+      var targetElement = document.getElementById("targetElement");
       targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-
-    targetElement.classList.add("blink");
-    setTimeout(function () {
-      targetElement.classList.remove("blink");
-    }, 2000);
+      targetElement.classList.add("blink");
+      setTimeout(function () {
+        targetElement.classList.remove("blink");
+      }, 2000);
+    }
   };
 
   return (
