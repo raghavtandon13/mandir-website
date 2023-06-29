@@ -1,0 +1,27 @@
+.ticker {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: row;
+  top: 79px;
+  position: sticky;
+}
+.ticker-title {
+  font-size: 25px;
+  background-color: black;
+  padding: 1%;
+  flex: 1;
+}
+.ticker-content {
+  background-image: linear-gradient(to right, rgb(29, 19, 29), rgb(74, 41, 69));
+  font-size: 20px;
+  flex: 10;
+  padding: 1%;
+}
+@media (max-width: 768px) {
+  .ticker-title {
+    display: none;
+  }
+  .ticker-content {
+    font-size: 15px;
+  }
+}
