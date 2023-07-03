@@ -47,9 +47,9 @@
 }
 
 @media (max-width: 1000px) {
-  .navbar {
-    /* height: 200px; */
-  }
+  /* .navbar {
+    height: 200px;
+  } */
   .navbar-brand {
     flex: 2;
     /* font-size: 80px; */
