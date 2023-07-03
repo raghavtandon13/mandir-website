@@ -1,16 +1,12 @@
 .carousel .slide img {
-  /* border: 5px solid black; */
   width: 93%;
-  border-radius: 20px;
-  margin-top: 2%;
+  border-radius: 5px;
+  margin-top: 60px;
   margin-bottom: 1%;
   height: 500px;
 }
 .carousel-root {
-  margin-top: 115px;
-  /* background-image: url("https://images.unsplash.com/photo-1686019539035-d034ab44a075?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80");
-  background-color: rgb(83, 27, 46);
-  background-blend-mode: darken; */
+  margin-top: 80px;
 }
 .carousel.carousel-slider {
   padding-bottom: 1%;
@@ -21,17 +17,14 @@
 .carousel .thumbs-wrapper {
   display: none;
 }
-/* .carousel .control-dots {
-} */
 .carousel.carousel-slider .control-arrow {
   background-color: rgb(0 0 0 / 20%);
   margin: 82px 0px;
-  top: -15px;
+  top: 30px;
 }
 .carousel .control-dots {
   bottom: -10px;
 }
-
 .carousel.carousel-slider .control-arrow:hover {
   border: 1px solid white;
   background: rgb(0 0 0 / 48%);
@@ -44,7 +37,3 @@
     height: 300px;
   }
 }
-
-/* //////////////////////////////////// */
-
-

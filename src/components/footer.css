@@ -1,4 +1,8 @@
+.body {
+  height: 100%;
+}
 .footer {
+  bottom: 0px;
   background-color: black;
   display: flex;
   flex-direction: row;
