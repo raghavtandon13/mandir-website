@@ -15,15 +15,15 @@ function Footer() {
           {/* <Facebook />
           <Twitter />
           <Instagram /> */}
-        <Link to={"http://facebook.com"}>
-          <Facebook />
-        </Link>
-        <Link to={"http://twitter.com"}>
-          <Twitter />
-        </Link>
-        <Link to={"http://instagram.com"}>
-          <Instagram />
-        </Link>
+          <Link to={"http://facebook.com"}>
+            <Facebook />
+          </Link>
+          <Link to={"http://twitter.com"}>
+            <Twitter />
+          </Link>
+          <Link to={"http://instagram.com"}>
+            <Instagram />
+          </Link>
         </div>
       </div>
     </div>

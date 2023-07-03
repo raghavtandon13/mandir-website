@@ -10,9 +10,9 @@ function WelcomePage() {
     <>
       <Navbar buttonLink="/" buttonLabel="Logout" />
       <div className="wrapper-for-bg">
-      <ProfileNav />
-      <ImgCarousel />
-      <Profile />
+        <ProfileNav />
+        <ImgCarousel />
+        <Profile />
       </div>
       <Footer />
     </>
