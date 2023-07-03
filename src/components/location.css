@@ -2,7 +2,7 @@
   background-image: url("../location.png");
   color: white;
   height: 454px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
 }
