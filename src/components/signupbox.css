@@ -53,9 +53,12 @@
 }
 @media (max-width: 768px) {
   .signup-box {
-    padding: 6%;
+    padding: 4% 8%;
   }
   .signup-page {
     background-position: right;
+  }
+  .signup-heading h1 {
+    font-size: 30px;
   }
 }
