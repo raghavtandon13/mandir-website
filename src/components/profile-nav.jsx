@@ -9,8 +9,8 @@ function ProfileNav() {
     <div className="menu-bar">
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-          {/* <h2>Services</h2> */}
-          <MenuIcon />
+        {/* <h2>Services</h2> */}
+        <MenuIcon />
       </label>
       <div className="menu-items">
         <button>Online services</button>
