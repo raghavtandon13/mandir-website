@@ -34,6 +34,7 @@
     margin-top: 80px;
   }
   .carousel .slide img {
+    margin-bottom: 5%;
     height: 300px;
   }
 }
