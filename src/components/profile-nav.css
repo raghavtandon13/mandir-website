@@ -15,10 +15,64 @@
   color: black;
 }
 @media (max-width: 768px) {
+  .menu-items button {
+    margin: 0px -20px;
+  }
+}
+
+/* navbar */
+
+.checkbtn {
+  color: aliceblue;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.menu-bar svg {
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
   .menu-bar {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .menu-items {
     display: none;
   }
-  .menu-bar button {
-    margin: 0px -20px;
+  .checkbtn {
+    margin-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkbtn svg {
+    align-items: flex-end;
+  }
+  .checkbtn h2 {
+    color: black;
+  }
+
+  #check:checked ~ .menu-items {
+    background-color: rgba(41, 41, 41, 0.526);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #check:checked ~ .menu-items button {
+    align-items: center;
+    width: 97vw;
+
+    margin: 0px 5px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-top: 2px;
   }
 }
