@@ -4,6 +4,7 @@
   flex-direction: row;
   top: 79px;
   position: sticky;
+  z-index: 999;
 }
 .ticker-title {
   font-size: 25px;

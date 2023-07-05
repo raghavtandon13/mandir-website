@@ -5,7 +5,7 @@ function Banner() {
   const handleClick = () => {
     {
       var targetElement = document.getElementById("targetElement");
-      targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      targetElement.scrollIntoView({ behavior: "smooth", block: "end" });
       targetElement.classList.add("blink");
       setTimeout(function () {
         targetElement.classList.remove("blink");
