@@ -9,7 +9,7 @@ const CountryStateSelector = () => {
 
   useEffect(() => {
     // Fetch the JSON file containing the country and state data
-    fetch("../../public/countries.json")
+    fetch("/countries.json")
       .then((response) => response.json())
       .then((data) => setCountries(data))
       .catch((error) => console.log(error));
