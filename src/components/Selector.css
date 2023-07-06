@@ -1,0 +1,14 @@
+.select {
+    width: 140px;
+    padding: 2% 3%;
+    margin-top: 8%;
+    border: none;
+    border-radius: 2px;
+    font-family: "Playfair Display", serif;
+}
+.address {
+    width: 305px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
