@@ -1,14 +1,1 @@
 `npm run dev -- --host 0.0.0.0`
-
-
-
-Name text box
-Mobile
-Email - email control 
-Address - text box
-Pin - number box
-State - drop down 
-Country - drop down
-Gender - male/female - radio button
-Occupation - list box ( services/ job)
-Buttons-- submit/reset
