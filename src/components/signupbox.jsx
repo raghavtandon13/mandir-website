@@ -31,12 +31,7 @@ function SignUpBox() {
           <input type="email" name="email" id="email" placeholder="E-mail" />
           <input type="text" name="address" id="email" placeholder="Address" />
           <CountryStateSelector />
-          <input
-            type="number"
-            name="pin"
-            id="pin"
-            placeholder="Pincode"
-          />
+          <input type="number" name="pin" id="pin" placeholder="Pincode" />
           <input
             type="password"
             name="password"

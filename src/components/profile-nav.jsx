@@ -1,6 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./profile-nav.css";
 
