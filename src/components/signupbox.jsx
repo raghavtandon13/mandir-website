@@ -5,15 +5,13 @@ import CountryStateSelector from "./Selector";
 
 function SignUpBox() {
   const handleReset = () => {
-    {
-      document.getElementById("name").value = "";
-      document.getElementById("phone").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("address").value = "";
-      document.getElementById("pin").value = "";
-      document.getElementById("password").value = "";
-      document.getElementById("re-password").value = "";
-    }
+    document.getElementById("name").value = "";
+    document.getElementById("phone").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("address").value = "";
+    document.getElementById("pin").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("re-password").value = "";
   };
   return (
     <div className="signup-page">
