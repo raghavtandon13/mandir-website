@@ -4,6 +4,17 @@ import "./signupbox.css";
 import CountryStateSelector from "./Selector";
 
 function SignUpBox() {
+  const handleReset = () => {
+    {
+      document.getElementById("name").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("address").value = "";
+      document.getElementById("pin").value = "";
+      document.getElementById("password").value = "";
+      document.getElementById("re-password").value = "";
+    }
+  };
   return (
     <div className="signup-page">
       <div className="signup-box">
@@ -29,7 +40,12 @@ function SignUpBox() {
             placeholder="Mobile Number"
           />
           <input type="email" name="email" id="email" placeholder="E-mail" />
-          <input type="text" name="address" id="email" placeholder="Address" />
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="Address"
+          />
           <CountryStateSelector />
           <input type="number" name="pin" id="pin" placeholder="Pincode" />
           <input
@@ -41,13 +57,13 @@ function SignUpBox() {
           <input
             type="password"
             name="password"
-            id="password"
+            id="re-password"
             placeholder="Re-enter Password"
           />
         </div>
         <div className="signup-button">
           <button>Submit</button>
-          <button>Reset</button>
+          <button onClick={handleReset}>Reset</button>
           <Link to={"/login"}>
             <p>Already have an account?</p>
           </Link>
