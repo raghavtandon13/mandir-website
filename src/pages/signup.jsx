@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "../components/navbar";
 import SignUpBox from "../components/signupbox";
 

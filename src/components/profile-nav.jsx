@@ -1,4 +1,4 @@
-import React from "react";
+
 import MenuIcon from "@mui/icons-material/Menu";
 import "./profile-nav.css";
 

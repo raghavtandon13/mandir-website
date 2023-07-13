@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Facebook, Twitter, Instagram } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import "./footer.css";
