@@ -2,3 +2,22 @@
 #root {
   text-align: center;
 }
+
+.lang-btn {
+  position: fixed;
+  z-index: 9999999;
+  top: 20px;
+  left: 1236px;
+  margin-left: 10px;
+
+}
+
+@media (max-width: 768px) {
+  .lang-btn {
+    position: fixed;
+    z-index: 9999999;
+    top: 20px;
+    /* left: 1236px; */
+    margin-left: 10px;
+  }
+}
