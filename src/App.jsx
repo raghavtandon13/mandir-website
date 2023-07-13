@@ -17,7 +17,7 @@ function App() {
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === "en" ? "hi" : "en"));
   };
-  const buttonLabel = language === "en" ? "Hindi" : "English";
+  const buttonLabel = language === "en" ? "हिंदी" : "Eng";
   return (
     <LanguageContext.Provider value={translations}>
       <button className="lang-btn" onClick={toggleLanguage}>{buttonLabel}</button>
