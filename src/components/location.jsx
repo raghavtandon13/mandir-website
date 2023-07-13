@@ -1,4 +1,3 @@
-
 import "./location.css";
 
 function Location() {

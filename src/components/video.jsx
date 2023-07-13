@@ -1,4 +1,3 @@
-
 import "./video.css";
 // import '/src/video.mp4' // import local video
 

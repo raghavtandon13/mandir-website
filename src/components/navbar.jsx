@@ -1,5 +1,4 @@
-
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram } from "@mui/icons-material";
 import "./Navbar.css";
 

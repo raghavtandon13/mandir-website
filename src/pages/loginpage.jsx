@@ -1,4 +1,3 @@
-
 import Navbar from "../components/navbar";
 import LoginBox from "../components/loginbox";
 function Login() {

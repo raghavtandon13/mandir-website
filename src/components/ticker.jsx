@@ -1,4 +1,3 @@
-
 import "./ticker.css";
 
 function Ticker() {
@@ -6,7 +5,7 @@ function Ticker() {
     <div className="ticker">
       <div className="ticker-title">Updates</div>
       <div className="ticker-content">
-        <marquee >
+        <marquee>
           <p>
             Special Event on 32nd June 2023 🛐🛐🙏🙏🥳🥳 Experience the beauty
             and grace of Jhandewalan Mandir, a Hindu Mandir temple located in

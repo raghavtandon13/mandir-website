@@ -20,7 +20,9 @@ function App() {
   const buttonLabel = language === "en" ? "हिंदी" : "Eng";
   return (
     <LanguageContext.Provider value={translations}>
-      <button className="lang-btn" onClick={toggleLanguage}>{buttonLabel}</button>
+      <button className="lang-btn" onClick={toggleLanguage}>
+        {buttonLabel}
+      </button>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>

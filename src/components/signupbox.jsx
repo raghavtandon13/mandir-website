@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import "./signupbox.css";
 import CountryStateSelector from "./Selector";

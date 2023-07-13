@@ -1,4 +1,3 @@
-
 import Navbar from "../components/navbar";
 import Banner from "../components/banner";
 import Services from "../components/services";
